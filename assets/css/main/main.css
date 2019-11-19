@@ -1,0 +1,225 @@
+.logo img {
+  max-width: 50%;
+}
+
+.seguinos-redes div h2 {
+  text-align: center;
+  font-weight: 800;
+}
+
+#conocenos {
+  padding-top: 7%;
+}
+#conocenos #row-redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#conocenos #row-redes .col-md-6 .service-box {
+  padding: 5px;
+}
+#conocenos #row-redes div {
+  margin: 10px 0;
+  cursor: pointer;
+}
+#conocenos #row-redes div .text-primary {
+  color: #00345c !important;
+  font-size: 7.6em;
+}
+#conocenos #row-redes div .mb-3 {
+  color: grey;
+}
+#conocenos #row-redes div a {
+  padding: 5px;
+}
+#conocenos #row-redes div a:hover {
+  color: #00345c;
+}
+#conocenos .ml {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#conocenos .ml .span12 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.span12 .cta-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.span12 .cta-box .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffe900;
+  color: #002f6d;
+}
+.span12 .cta-box .btn .cta-text img {
+  max-width: 40%;
+}
+
+#contacto {
+  padding-top: 8%;
+}
+
+#lugar {
+  padding-top: 7%;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contacto .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  width: 90%;
+}
+.contacto .row .col-12 {
+  width: 100%;
+}
+.contacto .row .col-12 .contenido_contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .row .col-12 .contenido_contacto .formulario {
+  width: 100%;
+}
+.contacto .row .col-12 .contenido_contacto .formulario form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+}
+.contacto .row .col-12 .contenido_contacto .formulario form input,
+.contacto .row .col-12 .contenido_contacto .formulario form .mensaje {
+  resize: none;
+  font-size: 1em;
+  padding: 10px 10px;
+  width: 90%;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 3px 3px 6px 6px grey;
+  box-shadow: 1px 1px 4px grey;
+  color: black;
+}
+.contacto .row .col-12 .contenido_contacto .formulario form input[type=submit] {
+  border: 0px solid black !important;
+  width: 90%;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 15px;
+  text-align: center;
+  background: #002f6d;
+  color: white;
+}
+.contacto .row .col-12 .contenido_contacto .formulario form input[type=submit]:hover {
+  background: grey;
+}
+
+.info {
+  margin-top: 5%;
+}
+.info .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.info .row div {
+  margin: 20px 0;
+}
+.info .row div .title-horarios {
+  margin: 3%;
+}
+
+footer {
+  background: transparent;
+}
+
+.map .container .row .col-12 iframe {
+  width: 100%;
+  height: 45vh;
+  border-radius: 8px;
+}
+
+a[href^=tel] {
+  color: inherit;
+  /* Inherit text color of parent element. */
+  text-decoration: none;
+  /* Remove underline. */
+}
+
+@media (max-width: 767px) {
+  .navbar-inner {
+    padding: 0;
+  }
+  .navbar-inner nav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-inner nav .nav {
+    margin: 0;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .navbar-inner nav .nav li {
+    display: flex;
+  }
+  .navbar-inner nav .nav li a {
+    padding: 0;
+    line-height: 40px;
+  }
+
+  #images {
+    margin: 0 !important;
+  }
+
+  #row-redes {
+    flex-direction: column;
+  }
+
+  .ml .span12 .cta-box a {
+    flex-direction: column;
+  }
+  .ml .span12 .cta-box a .cta-text img {
+    max-width: 75%;
+  }
+
+  #lugar p {
+    line-height: 2;
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

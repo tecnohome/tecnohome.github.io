@@ -1,0 +1,264 @@
+.logo {
+  img {
+    max-width: 50%;
+  }
+}
+
+.seguinos-redes {
+  div {
+    h2 {
+      text-align: center;
+      font-weight: 800;
+    }
+  }
+}
+
+#conocenos {
+  padding-top: 7%;
+  #row-redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    .col-md-6 {
+      .service-box {
+        padding: 5px;
+      }
+    }
+
+    div {
+      margin: 10px 0;
+      cursor: pointer;
+
+      .text-primary {
+        color: #00345c !important;
+        font-size: 7.6em;
+      }
+
+      .mb-3 {
+        color: grey;
+      }
+
+      a {
+        padding: 5px;
+      }
+
+      a:hover {
+        color: #00345c;
+      }
+    }
+  }
+
+  .ml {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    .span12 {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.span12 {
+  .cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffe900;
+      color: #002f6d;
+      .cta-text {
+        img {
+          max-width: 40%;
+        }
+      }
+    }
+  }
+}
+
+#contacto {
+  padding-top: 8%;
+}
+
+#lugar {
+  padding-top: 7%;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    .col-12 {
+      width: 100%;
+      .contenido_contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .formulario {
+          width: 100%;
+
+          form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 5px 0;
+            padding: 5px;
+            width: 100%;
+            text-align: left;
+
+            input,
+            .mensaje {
+              resize: none;
+              font-size: 1.0em;
+              padding: 10px 10px;
+              width: 90%;
+              border-radius: 5px;
+              -webkit-appearance: none;
+              -webkit-box-shadow: 3px 3px 6px 6px grey;
+              box-shadow: 1px 1px 4px grey;
+              color: black;
+            }
+
+            input[type="submit"] {
+              border: 0px solid black !important;
+              width: 90%;
+              cursor: pointer;
+              user-select: none;
+              transition: all 0.2s ease-in-out;
+              font-size: 1em;
+              font-weight: 600;
+              margin-top: 15px;
+              text-align: center;
+              background: #002f6d;
+              color: white;
+            }
+
+            input[type="submit"]:hover {
+              background: grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.info {
+  margin-top: 5%;
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    div {
+      margin: 20px 0;
+
+      .title-horarios {
+        margin: 3%;
+      }
+    }
+  }
+}
+
+footer {
+  background: transparent;
+}
+
+.map {
+  .container {
+    .row {
+      .col-12 {
+        iframe {
+          width: 100%;
+          height: 45vh;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
+
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+}
+
+@media (max-width: 767px) {
+  .navbar-inner {
+    padding: 0;
+    nav {
+      display: flex;
+      justify-content: center;
+
+      padding: 0;
+      margin: 0;
+      .nav {
+        margin: 0;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        li {
+          display: flex;
+          a {
+            padding: 0;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  #images {
+    margin: 0 !important;
+  }
+
+  #row-redes {
+    flex-direction: column;
+  }
+
+  .ml {
+    .span12 {
+      .cta-box {
+        a {
+          flex-direction: column;
+          .cta-text {
+            img {
+              max-width: 75%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #lugar {
+    p {
+      line-height: 2.0;
+      font-size: 0.9rem;
+    }
+  }
+}
